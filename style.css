@@ -5,6 +5,9 @@
 /* section{
     width: auto;
 }*/
+iframe{
+    width: 100%;
+}
 .avis-client{
     font-size: 20px;
 }
