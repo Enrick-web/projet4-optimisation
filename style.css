@@ -19,11 +19,18 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+}
+a:focus{
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 5px;
+}
+.btn:focus{
+    border: 3px solid rgb(0, 153, 255);
+    border-radius: 25px;
 }
 
 a:hover {
@@ -714,7 +721,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -904,6 +911,13 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .social{
+        display: flex;
+        justify-content: center;
+    }
+    .social div{
+        padding: 0 25px;        
+    } 
     .page-container {
         overflow-x: hidden;
         position: relative;
