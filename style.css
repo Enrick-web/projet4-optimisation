@@ -148,7 +148,7 @@ a:hover {
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
 .d-bloc h2 a,
-.d-bloc h3 a,
+.d-bloc h2 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
@@ -165,7 +165,7 @@ a:hover {
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
+.d-bloc h2 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
@@ -246,7 +246,7 @@ a:hover {
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
 .l-bloc h2 a,
-.l-bloc h3 a,
+.l-bloc h2 a,
 .l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
@@ -264,7 +264,7 @@ a:hover {
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
+.l-bloc h2 a:hover,
 .l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
@@ -661,7 +661,7 @@ a[data-lightbox]:hover img {
 
 h1,
 h2,
-h3,
+h2,
 h4,
 h5,
 h6,
@@ -722,6 +722,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto;
+    padding: 10px;
 }
 
 h2 {
@@ -729,7 +730,7 @@ h2 {
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -924,7 +925,7 @@ h4 {
     }
     h1,
     h2,
-    h3,
+    h2,
     h4,
     h5,
     h6,
