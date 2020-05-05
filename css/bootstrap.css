@@ -1497,13 +1497,13 @@ hr {
 .h1,
 .h2,
 .h2,
-.h4,
+.h3,
 .h5,
 .h6,
 h1,
 h2,
 h2,
-h4,
+h3,
 h5,
 h6 {
     font-family: inherit;
@@ -1518,8 +1518,8 @@ h6 {
 .h2 small,
 .h2 .small,
 .h2 small,
-.h4 .small,
-.h4 small,
+.h3 .small,
+.h3 small,
 .h5 .small,
 .h5 small,
 .h6 .small,
@@ -1530,8 +1530,8 @@ h2 .small,
 h2 small,
 h2 .small,
 h2 small,
-h4 .small,
-h4 small,
+h3 .small,
+h3 small,
 h5 .small,
 h5 small,
 h6 .small,
@@ -1566,24 +1566,24 @@ h2 small {
     font-size: 65%
 }
 
-.h4,
+.h3,
 .h5,
 .h6,
-h4,
+h3,
 h5,
 h6 {
     margin-top: 10px;
     margin-bottom: 10px
 }
 
-.h4 .small,
-.h4 small,
+.h3 .small,
+.h3 small,
 .h5 .small,
 .h5 small,
 .h6 .small,
 .h6 small,
-h4 .small,
-h4 small,
+h3 .small,
+h3 small,
 h5 .small,
 h5 small,
 h6 .small,
@@ -1606,8 +1606,8 @@ h2 {
     font-size: 24px
 }
 
-.h4,
-h4 {
+.h3,
+h3 {
     font-size: 18px
 }
 
@@ -6068,7 +6068,7 @@ a.thumbnail:hover {
     border-radius: 4px
 }
 
-.alert h4 {
+.alert h3 {
     margin-top: 0;
     color: inherit
 }
