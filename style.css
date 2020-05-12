@@ -551,7 +551,7 @@ button {
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 20px;
+    bottom: 120px;
     right: 20px;
     opacity: 0;
     z-index: 500;
@@ -942,6 +942,7 @@ h3 {
     .social {
         display: flex;
         justify-content: center;
+        padding: 0;
     }
 
     .social div {
