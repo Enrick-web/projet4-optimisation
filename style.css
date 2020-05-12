@@ -551,8 +551,8 @@ button {
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 190px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
@@ -887,6 +887,9 @@ h3 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .g-map{
+        width: auto;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -1122,11 +1125,5 @@ h3 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-    }
-}
-@media screen and (max-width: 320px){
-    body{
-        margin: 0;
-        padding: 0;
     }
 }
